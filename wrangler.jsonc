@@ -1,0 +1,16 @@
+{
+	"$schema": "node_modules/wrangler/config-schema.json",
+	"name": "nef-list",
+	"main": "src/index.js",
+	"compatibility_date": "2026-07-01",
+	"observability": {
+		"enabled": true
+	},
+	"d1_databases": [
+		{
+			"binding": "DB",
+			"database_name": "nef-list",
+			"database_id": "dc4fcd2e-06fb-490a-8233-94ef5011eee8"
+		}
+	]
+}
